@@ -1,5 +1,4 @@
-Android custom loggerUses
-
+<h4> Integration Steps </h4>
 Step1: Copy and paste the “logger” package into your app main package. Once copied, fix the package name errors if any by updating the root package name of your app in logger files.
 
 Step 2: Set LogUtils.DEBUG=true or false in your application. Usually set it to true while developmnet is going on and false when your app is ready to publish.
@@ -42,3 +41,7 @@ Step 3: Following are some example uses:
     LogUtils.wtf("12345");
 
 That's it! check your logcat to see how it goes.
+
+<h4>Credits:</h4>
+This custom logger is based on open source project <a href="https://android-arsenal.com/details/1/2194">here</a>
+
